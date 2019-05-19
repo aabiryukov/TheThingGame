@@ -1,0 +1,35 @@
+//
+// THING.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+20                      BITMAP  DISCARDABLE     "res\\PICTURES\\Ground.bmp"
+21                      BITMAP  DISCARDABLE     "res\\PICTURES\\Obstacle.bmp"
+22                      BITMAP  DISCARDABLE     "res\\PICTURES\\Fruit.bmp"
+23                      BITMAP  DISCARDABLE     "res\\PICTURES\\Rock.bmp"
+24                      BITMAP  DISCARDABLE     "res\\PICTURES\\Monster.bmp"
+25                      BITMAP  DISCARDABLE     "res\\PICTURES\\Monster3.bmp"
+26                      BITMAP  DISCARDABLE     "res\\PICTURES\\Monster2.bmp"
+27                      BITMAP  DISCARDABLE     "res\\PICTURES\\Ball.bmp"
+28                      BITMAP  DISCARDABLE     "res\\PICTURES\\Ball3.bmp"
+29                      BITMAP  DISCARDABLE     "res\\PICTURES\\Ball2.bmp"
+30                      BITMAP  DISCARDABLE     "res\\pictures\\man1.bmp"
+31                      BITMAP  DISCARDABLE     "res\\PICTURES\\man2.bmp"
+32                      BITMAP  DISCARDABLE     "res\\pictures\\man3.bmp"
+33                      BITMAP  DISCARDABLE     "res\\PICTURES\\man13.bmp"
+34                      BITMAP  DISCARDABLE     "res\\PICTURES\\man12.bmp"
+35                      BITMAP  DISCARDABLE     "res\\PICTURES\\man11.bmp"
+36                      BITMAP  DISCARDABLE     "res\\PICTURES\\manF3.bmp"
+37                      BITMAP  DISCARDABLE     "res\\PICTURES\\manF2.bmp"
+38                      BITMAP  DISCARDABLE     "res\\PICTURES\\manF1.bmp"
+39                      BITMAP  DISCARDABLE     "res\\PICTURES\\Rock1.bmp"
+40                      BITMAP  DISCARDABLE     "res\\PICTURES\\Rock2.bmp"
+41                      BITMAP  DISCARDABLE     "res\\PICTURES\\Rock3.bmp"
