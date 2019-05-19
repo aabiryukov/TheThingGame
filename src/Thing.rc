@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Russian resources
+// Russian (Russia) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
-#ifdef _WIN32
 LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 #pragma code_page(1251)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -64,16 +62,27 @@ END
 //
 
 51                      BITMAP                  "res\\pictures\\bitmap1.bmp"
+
 52                      BITMAP                  "res\\pictures\\bmp52.bmp"
+
 53                      BITMAP                  "res\\pictures\\bmp53.bmp"
+
 54                      BITMAP                  "res\\pictures\\bmp54.bmp"
+
 55                      BITMAP                  "res\\pictures\\bmp55.bmp"
+
 56                      BITMAP                  "res\\pictures\\bmp56.bmp"
+
 IDB_TITLE               BITMAP                  "res\\PICTURES\\Title.bmp"
+
 IDB_BACK                BITMAP                  "res\\PICTURES\\Backgrnd.bmp"
+
 IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
 IDB_LEVEL               BITMAP                  "res\\pictures\\level.bmp"
+
 IDB_BIGMAN              BITMAP                  "res\\PICTURES\\Man.bmp"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -81,16 +90,27 @@ IDB_BIGMAN              BITMAP                  "res\\PICTURES\\Man.bmp"
 //
 
 IDW_MON1                WAVE                    "res\\SOUNDS\\Odead.wav"
+
 IDW_FRU1                WAVE                    "res\\SOUNDS\\Item1.wav"
+
 IDW_MAN1                WAVE                    "res\\SOUNDS\\Mandead1.wav"
+
 IDW_MON3                WAVE                    "res\\SOUNDS\\Monster1.wav"
+
 IDW_MON2                WAVE                    "res\\SOUNDS\\Monster2.wav"
+
 IDW_MUS                 WAVE                    "res\\SOUNDS\\Mus.wav"
+
 IDW_ROC1                WAVE                    "res\\SOUNDS\\Down1.wav"
+
 IDW_BALL1               WAVE                    "res\\SOUNDS\\ball.WAV"
+
 IDW_HAHA                WAVE                    "res\\SOUNDS\\Ha.wav"
+
 IDW_FRUDOWN             WAVE                    "res\\SOUNDS\\FruDown.wav"
+
 IDW_FINAL               WAVE                    "res\\SOUNDS\\Final.wav"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -101,12 +121,13 @@ IDW_FINAL               WAVE                    "res\\SOUNDS\\Final.wav"
 // remains consistent on all systems.
 IDR_MAINFRAME           ICON                    "res\\Pictures\\Thing.ico"
 
+
 /////////////////////////////////////////////////////////////////////////////
 //
 // Toolbar
 //
 
-IDR_MAINFRAME TOOLBAR  16, 15
+IDR_MAINFRAME TOOLBAR 16, 15
 BEGIN
     BUTTON      IDM_START
     SEPARATOR
@@ -129,7 +150,7 @@ END
 // Menu
 //
 
-IDR_MAINFRAME_ENG MENU 
+IDR_MAINFRAME_ENG MENU
 BEGIN
     MENUITEM "&About",                      ID_APP_ABOUT
     POPUP "&Command"
@@ -162,7 +183,7 @@ BEGIN
     MENUITEM "E&xit",                       ID_APP_EXIT
 END
 
-IDR_MAINFRAME_RUS MENU 
+IDR_MAINFRAME_RUS MENU
 BEGIN
     MENUITEM "&О программе",                ID_APP_ABOUT_RUS
     POPUP "&Команды"
@@ -201,7 +222,7 @@ END
 // Accelerator
 //
 
-IDR_MAINFRAME ACCELERATORS 
+IDR_MAINFRAME ACCELERATORS
 BEGIN
     "G",            IDM_SPEED,              VIRTKEY, CONTROL, NOINVERT
     "R",            IDM_REPLAY,             VIRTKEY, CONTROL, NOINVERT
@@ -223,19 +244,15 @@ STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "About ""The THING"""
 FONT 8, "Courier New", 0, 0, 0x0
 BEGIN
-    CONTROL         180,IDC_STATIC,"Static",SS_BITMAP,7,7,169,44
-    CTEXT           "The THING.  Version 2.6",IDC_STATIC,8,59,136,8,
-                    SS_NOPREFIX
+    CONTROL         IDB_TITLE,IDC_STATIC,"Static",SS_BITMAP,7,7,169,44
+    CTEXT           "The THING.  Version 2.6",IDC_STATIC,8,59,136,8,SS_NOPREFIX
     CTEXT           "Created by Alexander Biryukov",IDC_STATIC,7,87,148,8
-    CONTROL         201,IDC_STATIC,"Static",SS_BITMAP | SS_RIGHTJUST,164,19,
-                    109,122
+    CONTROL         IDB_BIGMAN,IDC_STATIC,"Static",SS_BITMAP | SS_RIGHTJUST,164,19,109,122
     CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,7,53,152,70
     DEFPUSHBUTTON   "OK",IDOK,50,127,70,14,WS_GROUP
     CTEXT           "E-mail: aabiryukov@gmail.com",IDC_STATIC,11,98,135,8
-    CTEXT           "Oct`1998 (update 2006)",IDC_STATIC,8,70,136,8,
-                    SS_NOPREFIX
-    CTEXT           "Home page: http://alexbirk.narod.ru",IDC_STATIC,8,108,
-                    146,8
+    CTEXT           "Oct`1998 (update 2006)",IDC_STATIC,8,70,136,8,SS_NOPREFIX
+    CTEXT           "Home page: http://alexbirk.narod.ru",IDC_STATIC,8,108,146,8
 END
 
 IDD_THING_FORM DIALOGEX 0, 0, 144, 105
@@ -250,10 +267,8 @@ FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     DEFPUSHBUTTON   "OK",IDOK,57,53,56,14
     CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,7,7,117,67
-    CONTROL         171,IDC_LEVEL,"Static",SS_BITMAP,54,18,47,24,
-                    WS_EX_TRANSPARENT
-    CONTROL         51,IDC_NUMER,"Static",SS_BITMAP | SS_CENTERIMAGE,13,13,
-                    32,48,WS_EX_TRANSPARENT
+    CONTROL         IDB_LEVEL,IDC_LEVEL,"Static",SS_BITMAP,54,18,47,24,WS_EX_TRANSPARENT
+    CONTROL         51,IDC_NUMER,"Static",SS_BITMAP | SS_CENTERIMAGE,13,13,32,48,WS_EX_TRANSPARENT
 END
 
 IDD_SPEED DIALOGEX 0, 0, 187, 65
@@ -261,8 +276,7 @@ STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
 CAPTION "Gange speed"
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
-    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_TOP | 
-                    WS_TABSTOP,7,14,173,21,WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_TOP | WS_TABSTOP,7,14,173,21,WS_EX_STATICEDGE
     DEFPUSHBUTTON   "OK",IDOK,7,44,50,14
     PUSHBUTTON      "Cancel",IDCANCEL,73,44,50,14
     LTEXT           "Faster",IDC_STATIC,7,4,20,8
@@ -275,8 +289,7 @@ STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
 CAPTION "Скорость игры"
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
-    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_TOP | 
-                    WS_TABSTOP,7,14,173,21,WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_TOP | WS_TABSTOP,7,14,173,21,WS_EX_STATICEDGE
     DEFPUSHBUTTON   "Да",IDOK,7,44,50,14
     PUSHBUTTON      "Отмена",IDCANCEL,68,44,50,14
     LTEXT           "Быстрее",IDC_STATIC,7,4,31,8
@@ -289,28 +302,25 @@ STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "О програме ""НЕЧТО'"
 FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
-    CONTROL         201,IDC_STATIC,"Static",SS_BITMAP,175,17,127,132
-    CONTROL         180,IDC_STATIC,"Static",SS_BITMAP,3,1,169,44
-    CTEXT           "The THING. Версия 2.6",IDC_STATIC,9,54,134,8,
-                    SS_NOPREFIX
+    CONTROL         IDB_BIGMAN,IDC_STATIC,"Static",SS_BITMAP,175,17,127,132
+    CONTROL         IDB_TITLE,IDC_STATIC,"Static",SS_BITMAP,3,1,169,44
+    CTEXT           "The THING. Версия 2.6",IDC_STATIC,9,54,134,8,SS_NOPREFIX
     RTEXT           "Октябрь 1998 (update 2006)",IDC_STATIC,12,63,130,8
     LTEXT           "Автор программы :",IDC_STATIC,14,78,126,8
     CTEXT           "Бирюков Александр",IDC_STATIC,26,87,113,8
     CTEXT           "Адрес : aabiryukov@gmail.com",IDC_STATIC,34,103,127,8
     CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,3,49,159,76
     DEFPUSHBUTTON   "OK",IDOK,49,135,70,14,WS_GROUP
-    CTEXT           "Дом. страница : http://alexbirk.narod.ru",IDC_STATIC,9,
-                    113,146,9
+    CTEXT           "Дом. страница : http://alexbirk.narod.ru",IDC_STATIC,9,113,146,9
 END
 
-IDD_HELP DIALOG  0, 0, 186, 95
+IDD_HELP DIALOG 0, 0, 186, 95
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Help"
 FONT 8, "MS Sans Serif"
 BEGIN
     DEFPUSHBUTTON   "OK",IDOK,129,74,50,14
-    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",TCS_VERTICAL | WS_BORDER | 
-                    WS_TABSTOP,7,7,106,81
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",TCS_VERTICAL | WS_BORDER | WS_TABSTOP,7,7,106,81
 END
 
 
@@ -361,7 +371,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_ABOUTBOX, DIALOG
     BEGIN
@@ -424,21 +434,32 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX_RUS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDR_MAINFRAME           "The THING\n\nThing\n\n\n\n"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_APP_TITLE       "The THING"
     AFX_IDS_IDLEMESSAGE     "I want orders My Master"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_INDICATOR_EXT        "EXT"
     ID_INDICATOR_CAPS       "CAP"
@@ -448,19 +469,19 @@ BEGIN
     ID_INDICATOR_REC        "REC"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
     ID_APP_EXIT             "Quit the application\nQuit"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle toolbar"
     ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle status bar"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_SCSIZE          "Change the window size"
     AFX_IDS_SCMOVE          "Change the window position"
@@ -471,13 +492,13 @@ BEGIN
     AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_SCRESTORE       "Restore the window to normal size"
     AFX_IDS_SCTASKLIST      "Activate Task List"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDM_SPEED               "Изменить скорость игры\nСкорость игры"
     IDM_START               "Start the game\nСтарт"
@@ -488,7 +509,7 @@ BEGIN
     IDM_DIF_HARD            "Hard levels difficulty (for Men)\nHard"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDM_LANGUAGE_ENG        "Set english language in game"
     IDM_LANGUAGE_RUS        "Переключить программу на русский язык"
@@ -506,7 +527,7 @@ BEGIN
     IDM_DIF_VHARD           "Very hard levels difficulty (for SuperMen)\nVery hard"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDM_DIF_VHARD_RUS       "Повышенная сложность этапов игры (для крутых)"
     IDM_STOP                "Stop the game"
@@ -514,7 +535,7 @@ BEGIN
     IDM_CUSTOM_LEVEL1       "Custom1\nNew level set N1"
 END
 
-#endif    // Russian resources
+#endif    // Russian (Russia) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

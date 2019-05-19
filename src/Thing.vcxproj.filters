@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{005d216a-79a5-4a9b-b2d4-c5cadd767da6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{78c16bb1-363b-49a4-9c90-42dda9418dda}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2e594d57-ac11-4413-9eb8-639ce4582050}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Sounds">
+      <UniqueIdentifier>{35765b35-db32-4737-9103-d9b498391b04}</UniqueIdentifier>
+      <Extensions>wav</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Pictures">
+      <UniqueIdentifier>{2d1df738-bd6a-4417-a329-f3975e51b0ab}</UniqueIdentifier>
+      <Extensions>bmp,wmf</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Pictures\Man">
+      <UniqueIdentifier>{45d36779-92dd-488c-8ae7-060f785c3f16}</UniqueIdentifier>
+      <Extensions>*.bmp</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Pictures\Inteface Images">
+      <UniqueIdentifier>{e99f4ee4-7cdc-4e55-9dd8-d4eef33eca6c}</UniqueIdentifier>
+      <Extensions>*.bmp</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Pictures\Inteface Images\Level Numbers">
+      <UniqueIdentifier>{1e0705cf-8c59-4fb5-b292-45d55aaf5926}</UniqueIdentifier>
+      <Extensions>*.bmp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Labirint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThingDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThingForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Thing.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Labirint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThingDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThingForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Pictures\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Pictures\Thing.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ThingDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Pictures\Empty.bmp">
+      <Filter>Resource Files\Pictures</Filter>
+    </Image>
+    <Image Include="res\Pictures\Fruit.bmp">
+      <Filter>Resource Files\Pictures</Filter>
+    </Image>
+    <Image Include="res\Pictures\Ground.bmp">
+      <Filter>Resource Files\Pictures</Filter>
+    </Image>
+    <Image Include="res\Pictures\man1.bmp">
+      <Filter>Resource Files\Pictures\Man</Filter>
+    </Image>
+    <Image Include="res\Pictures\man11.bmp">
+      <Filter>Resource Files\Pictures\Man</Filter>
+    </Image>
+    <Image Include="res\Pictures\man12.bmp">
+      <Filter>Resource Files\Pictures\Man</Filter>
+    </Image>
+    <Image Include="res\Pictures\man13.bmp">
+      <Filter>Resource Files\Pictures\Man</Filter>
+    </Image>
+    <Image Include="res\Pictures\man2.bmp">
+      <Filter>Resource Files\Pictures\Man</Filter>
+    </Image>
+    <Image Include="res\Pictures\man3.bmp">
+      <Filter>Resource Files\Pictures\Man</Filter>
+    </Image>
+    <Image Include="res\Pictures\manF1.bmp">
+      <Filter>Resource Files\Pictures\Man</Filter>
+    </Image>
+    <Image Include="res\Pictures\manF2.bmp">
+      <Filter>Resource Files\Pictures\Man</Filter>
+    </Image>
+    <Image Include="res\Pictures\manF3.bmp">
+      <Filter>Resource Files\Pictures\Man</Filter>
+    </Image>
+    <Image Include="res\Pictures\Backgrnd.bmp">
+      <Filter>Resource Files\Pictures\Inteface Images</Filter>
+    </Image>
+    <Image Include="res\Pictures\Man.bmp">
+      <Filter>Resource Files\Pictures\Inteface Images</Filter>
+    </Image>
+    <Image Include="res\Pictures\Title.bmp">
+      <Filter>Resource Files\Pictures\Inteface Images</Filter>
+    </Image>
+    <Image Include="res\Pictures\bitmap1.bmp">
+      <Filter>Resource Files\Pictures\Inteface Images\Level Numbers</Filter>
+    </Image>
+    <Image Include="res\Pictures\bmp52.bmp">
+      <Filter>Resource Files\Pictures\Inteface Images\Level Numbers</Filter>
+    </Image>
+    <Image Include="res\Pictures\bmp53.bmp">
+      <Filter>Resource Files\Pictures\Inteface Images\Level Numbers</Filter>
+    </Image>
+    <Image Include="res\Pictures\bmp54.bmp">
+      <Filter>Resource Files\Pictures\Inteface Images\Level Numbers</Filter>
+    </Image>
+    <Image Include="res\Pictures\bmp55.bmp">
+      <Filter>Resource Files\Pictures\Inteface Images\Level Numbers</Filter>
+    </Image>
+    <Image Include="res\Pictures\bmp56.bmp">
+      <Filter>Resource Files\Pictures\Inteface Images\Level Numbers</Filter>
+    </Image>
+    <Image Include="res\Pictures\level.bmp">
+      <Filter>Resource Files\Pictures\Inteface Images\Level Numbers</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Thing.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Sounds\ball.WAV">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\Down1.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\F_Down.WAV">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\Final.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\FruDown.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\Ha.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\Item1.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\Mandead1.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\Monster1.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\Monster2.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\Mus.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="res\Sounds\Odead.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
