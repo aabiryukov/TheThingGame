@@ -3,8 +3,13 @@
 
 # Screenshots
 
+## Screen 1
 ![GitHub Logo](/docs/screen1.png )
+
+## Screen 2
 ![GitHub Logo](/docs/screen2.png )
+
+## Screen 3
 ![GitHub Logo](/docs/screen3.png )
 
 # Author
